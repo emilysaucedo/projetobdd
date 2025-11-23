@@ -1,0 +1,139 @@
+[
+  {
+    "description": "    Realizar o login no www.saucedemo.com",
+    "elements": [
+      {
+        "description": "",
+        "id": "login-no-saucedemo;login-com-sucesso",
+        "keyword": "Scenario Outline",
+        "line": 10,
+        "name": "Login com sucesso",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "que estou na pagina de login",
+            "match": {
+              "location": "file:\\C:\\projetobdd\\features\\support\\steps\\login.steps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3380211899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "preencho o 'standard_user' e a 'secret_sauce'",
+            "match": {
+              "location": "file:\\C:\\projetobdd\\features\\support\\steps\\login.steps.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 143271099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "clico em Login",
+            "match": {
+              "location": "file:\\C:\\projetobdd\\features\\support\\steps\\login.steps.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 162414700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "vou para a pagina 'inventory' e vejo 'Product'",
+            "match": {
+              "location": "file:\\C:\\projetobdd\\features\\support\\steps\\login.steps.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2552079000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-no-saucedemo;login-com-sucesso",
+        "keyword": "Scenario Outline",
+        "line": 11,
+        "name": "Login com sucesso",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "que estou na pagina de login",
+            "match": {
+              "location": "file:\\C:\\projetobdd\\features\\support\\steps\\login.steps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3739223000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "preencho o 'visual_user' e a 'secret_sauce'",
+            "match": {
+              "location": "file:\\C:\\projetobdd\\features\\support\\steps\\login.steps.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 95849799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "clico em Login",
+            "match": {
+              "location": "file:\\C:\\projetobdd\\features\\support\\steps\\login.steps.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 160255900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "vou para a pagina 'inventory' e vejo 'Product'",
+            "match": {
+              "location": "file:\\C:\\projetobdd\\features\\support\\steps\\login.steps.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2434362600
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "login-no-saucedemo",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Login no SauceDemo",
+    "tags": [],
+    "uri": "features\\login.feature"
+  }
+]
